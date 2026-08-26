@@ -32,7 +32,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="bg-[#101114] px-6 py-24 text-white lg:px-8"
+      className="scroll-mt-20 bg-[#101114] px-6 py-24 text-white lg:px-8"
     >
       <div className="mx-auto max-w-7xl">
 

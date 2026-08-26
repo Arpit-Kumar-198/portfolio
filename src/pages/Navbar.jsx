@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { FiMenu, FiX, FiArrowRight } from "react-icons/fi";
-const Navbar  = () => {
+const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="bg-[#101114] text-white">
@@ -9,48 +8,45 @@ const Navbar  = () => {
       <header className="border-b border-white/5">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
           {/* Logo */}
-          <Link to="/home" className="text-3xl font-bold text-[#F5B82E]">
+          <a href="#home" className="text-3xl font-bold text-[#F5B82E]">
             AK
-          </Link>
+          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden items-center gap-10 md:flex">
-            <Link to="/home" className="transition-colors hover:text-[#F5B82E]">
+            <a href="#home" className="transition-colors hover:text-[#F5B82E]">
               Home
-            </Link>
-            <Link
-              to="/about"
-              className="transition-colors hover:text-[#F5B82E]"
-            >
+            </a>
+            <a href="#about" className="transition-colors hover:text-[#F5B82E]">
               About
-            </Link>
+            </a>
 
-            <Link
-              to="/skills"
+            <a
+              href="#skills"
               className="transition-colors hover:text-[#F5B82E]"
             >
               Skills
-            </Link>
+            </a>
 
-            <Link
-              to="/projects"
+            <a
+              href="#projects"
               className="transition-colors hover:text-[#F5B82E]"
             >
               Projects
-            </Link>
+            </a>
 
-            <Link to="/dsa" className="transition-colors hover:text-[#F5B82E]">
+            <a href="#dsa" className="transition-colors hover:text-[#F5B82E]">
               DSA
-            </Link>
+            </a>
           </div>
 
           {/* Contact Button */}
-          <Link
-            to="/contact"
+          <a
+            href="#contact"
             className="hidden items-center gap-2 rounded-full bg-white px-6 py-3 font-semibold text-black transition-all hover:bg-[#F5B82E] hover:shadow-lg hover:shadow-[#F5B82E]/20 md:flex"
           >
             Contact Me <FiArrowRight />
-          </Link>
+          </a>
 
           {/* Mobile Menu Button */}
           <button
@@ -65,58 +61,58 @@ const Navbar  = () => {
         {menuOpen && (
           <div className="border-t border-white/5 px-6 py-5 md:hidden">
             <div className="flex flex-col gap-5">
-              <Link
-                to="/home"
+              <a
+                href="#home"
                 onClick={() => setMenuOpen(false)}
                 className="hover:text-[#F5B82E]"
               >
                 Home
-              </Link>
+              </a>
 
-              <Link
-                to="/about"
+              <a
+                href="#about"
                 onClick={() => setMenuOpen(false)}
                 className="hover:text-[#F5B82E]"
               >
                 About
-              </Link>
+              </a>
 
-              <Link
-                to="/skills"
+              <a
+                href="#skills"
                 onClick={() => setMenuOpen(false)}
                 className="hover:text-[#F5B82E]"
               >
                 Skills
-              </Link>
+              </a>
 
-              <Link
-                to="/projects"
+              <a
+                href="#projects"
                 onClick={() => setMenuOpen(false)}
                 className="hover:text-[#F5B82E]"
               >
                 Projects
-              </Link>
+              </a>
 
-              <Link
-                to="/dsa"
+              <a
+                href="#dsa"
                 onClick={() => setMenuOpen(false)}
                 className="hover:text-[#F5B82E]"
               >
                 DSA
-              </Link>
+              </a>
 
-              <Link
-                to="/contact"
+              <a
+                href="#contact"
                 onClick={() => setMenuOpen(false)}
                 className="w-fit rounded-full bg-white px-6 py-3 font-semibold text-black"
               >
                 Contact Me
-              </Link>
+              </a>
             </div>
           </div>
         )}
       </header>
     </div>
   );
-}
+};
 export default Navbar;

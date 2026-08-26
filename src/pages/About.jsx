@@ -11,7 +11,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-[#101114] px-6 py-24 text-white lg:px-8"
+      className="scroll-mt-20 bg-[#101114] px-6 py-24 text-white lg:px-8"
     >
       <div className="mx-auto max-w-7xl">
 
@@ -169,7 +169,7 @@ const About = () => {
 
           {/* Coding Problems */}
           <div className="rounded-2xl border border-white/5 bg-[#18191d] p-6 text-center transition-all duration-300 hover:-translate-y-2 hover:border-[#F5B82E]/40">
-            <h3 className="text-3xl font-bold text-[#F5B82E]">
+            <h3 className="text-2xl font-bold text-[#F5B82E]">
               700+
             </h3>
 
@@ -180,7 +180,7 @@ const About = () => {
 
           {/* Projects */}
           <div className="rounded-2xl border border-white/5 bg-[#18191d] p-6 text-center transition-all duration-300 hover:-translate-y-2 hover:border-[#F5B82E]/40">
-            <h3 className="text-3xl font-bold text-[#F5B82E]">
+            <h3 className="text-2xl font-bold text-[#F5B82E]">
               10+
             </h3>
 
@@ -191,7 +191,7 @@ const About = () => {
 
           {/* Technologies */}
           <div className="rounded-2xl border border-white/5 bg-[#18191d] p-6 text-center transition-all duration-300 hover:-translate-y-2 hover:border-[#F5B82E]/40">
-            <h3 className="text-3xl font-bold text-[#F5B82E]">
+            <h3 className="text-2xl font-bold text-[#F5B82E]">
               Fullstack
             </h3>
 
@@ -202,7 +202,7 @@ const About = () => {
 
           {/* AI */}
           <div className="rounded-2xl border border-white/5 bg-[#18191d] p-6 text-center transition-all duration-300 hover:-translate-y-2 hover:border-[#F5B82E]/40">
-            <h3 className="text-3xl font-bold text-[#F5B82E]">
+            <h3 className="text-2xl font-bold text-[#F5B82E]">
               GEN-AI
             </h3>
 
