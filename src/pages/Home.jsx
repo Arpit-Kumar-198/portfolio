@@ -77,7 +77,7 @@ const Home = () => {
               {/* Image Container */}
               <div className="relative flex h-72 w-72 items-end justify-center overflow-hidden rounded-full border-2 border-[#F5B82E] bg-[#18191d] sm:h-96 sm:w-96 lg:h-[480px] lg:w-[480px]">
                 <img
-                  src="src/assets/profile-img.jpeg"
+                  src="src/assets/profile.jpeg"
                   alt="Arpit Kumar"
                   className="h-full w-full object-cover"
                 />

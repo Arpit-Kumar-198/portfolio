@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX, FiArrowRight } from "react-icons/fi";
-function Navbar() {
+const Navbar  = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="bg-[#101114] text-white">
