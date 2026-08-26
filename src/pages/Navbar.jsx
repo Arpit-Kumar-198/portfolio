@@ -9,33 +9,42 @@ const Navbar = () => {
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
           {/* Logo */}
           <a href="#home" className="text-3xl font-bold text-[#F5B82E]">
-            AK
+            ARPIT.dev
           </a>
 
           {/* Desktop Navigation */}
           <div className="hidden items-center gap-10 md:flex">
-            <a href="#home" className="transition-colors hover:text-[#F5B82E]">
+            <a
+              href="#home"
+              className="relative text-white transition-colors hover:text-[#F5B82E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#F5B82E] after:transition-all after:duration-300 hover:after:w-full"
+            >
               Home
             </a>
-            <a href="#about" className="transition-colors hover:text-[#F5B82E]">
+            <a
+              href="#about"
+              className="relative text-white transition-colors hover:text-[#F5B82E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#F5B82E] after:transition-all after:duration-300 hover:after:w-full"
+            >
               About
             </a>
 
             <a
               href="#skills"
-              className="transition-colors hover:text-[#F5B82E]"
+              className="relative text-white transition-colors hover:text-[#F5B82E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#F5B82E] after:transition-all after:duration-300 hover:after:w-full"
             >
               Skills
             </a>
 
             <a
               href="#projects"
-              className="transition-colors hover:text-[#F5B82E]"
+              className="relative text-white transition-colors hover:text-[#F5B82E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#F5B82E] after:transition-all after:duration-300 hover:after:w-full"
             >
               Projects
             </a>
 
-            <a href="#dsa" className="transition-colors hover:text-[#F5B82E]">
+            <a
+              href="#dsa"
+              className="relative text-white transition-colors hover:text-[#F5B82E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#F5B82E] after:transition-all after:duration-300 hover:after:w-full"
+            >
               DSA
             </a>
           </div>

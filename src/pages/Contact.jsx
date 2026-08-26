@@ -128,17 +128,6 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Footer */}
-        <div className="mt-14 text-center">
-          <p className="text-sm text-gray-500">
-            Thanks for taking the time to visit my portfolio.
-          </p>
-
-          <p className="mt-2 text-xs text-gray-600">
-            © {new Date().getFullYear()} Arpit Kumar. All rights reserved.
-          </p>
-        </div>
-
       </div>
     </section>
   );
