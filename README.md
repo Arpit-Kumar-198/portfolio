@@ -63,7 +63,7 @@ Ways to connect with me for opportunities, collaborations and professional discu
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Arpit-Kumar-198/portfolio.git
 ```
 
 Navigate to the project:
@@ -83,12 +83,6 @@ Start the development server:
 ```bash
 npm run dev
 ```
-
-## 👨‍💻 About Me
-
-I'm **Arpit Kumar**, a Computer Science student at **ABES Engineering College** and an aspiring Fullstack Developer. I enjoy building web applications, solving Data Structures & Algorithms problems and exploring new technologies.
-
-Currently, I'm also learning **Generative AI** and exploring how AI can be integrated into modern fullstack applications.
 
 ## 📬 Connect With Me
 
