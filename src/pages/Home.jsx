@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedinIn, FaTwitter, FaDownload } from "react-icons/fa";
 import { FiArrowRight } from "react-icons/fi";
 import profileImage from "../assets/profile.jpeg";
+import resume from "../assets/arpit_resume.pdf";
 
 const Home = () => {
   return (
@@ -32,7 +33,7 @@ const Home = () => {
 
             {/* Resume Button */}
             <a
-              href="src/assets/arpit_resume.pdf"
+              href={resume}
               download
               className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#F5B82E] px-7 py-3.5 font-semibold text-black transition-all duration-300 hover:-translate-y-1 hover:bg-[#ffc94d] hover:shadow-xl hover:shadow-[#F5B82E]/20"
             >
