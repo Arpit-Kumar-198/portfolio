@@ -5,6 +5,7 @@ import {
   FaLightbulb,
   FaBrain,
 } from "react-icons/fa";
+import profileImage from "../assets/profile.jpeg";
 
 const About = () => {
   return (
@@ -40,7 +41,7 @@ const About = () => {
               {/* Image */}
               <div className="relative h-[380px] w-[300px] overflow-hidden rounded-3xl border border-white/10 bg-[#18191d] sm:h-[450px] sm:w-[350px]">
                 <img
-                  src="src/assets/profile.jpeg"
+                  src={profileImage}
                   alt="Arpit Kumar"
                   className="h-full w-full object-cover"
                 />

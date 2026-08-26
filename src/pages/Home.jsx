@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedinIn, FaTwitter, FaDownload } from "react-icons/fa";
 import { FiArrowRight } from "react-icons/fi";
+import profileImage from "../assets/profile.jpeg";
 
 const Home = () => {
   return (
@@ -77,7 +78,7 @@ const Home = () => {
               {/* Image Container */}
               <div className="relative flex h-72 w-72 items-end justify-center overflow-hidden rounded-full border-2 border-[#F5B82E] bg-[#18191d] sm:h-96 sm:w-96 lg:h-[480px] lg:w-[480px]">
                 <img
-                  src="src/assets/profile.jpeg"
+                  src={profileImage}
                   alt="Arpit Kumar"
                   className="h-full w-full object-cover"
                 />
