@@ -3,6 +3,7 @@ import {
   FaExternalLinkAlt,
   FaArrowRight,
 } from "react-icons/fa";
+import dailyToolkit from "../assets/projects/daily-toolkit.png";
 
 const Projects = () => {
   const projects = [
@@ -10,7 +11,7 @@ const Projects = () => {
       title: "Daily Toolkit",
       description:
         "A collection of useful everyday web applications including a weather dashboard, expense tracker, calculator and notes app.",
-      image: "src/assets/projects/daily-toolkit.png",
+      image: dailyToolkit,
       status: "Completed",
       technologies: [
         "HTML",
