@@ -26,6 +26,7 @@ import {
   SiCplusplus,
   SiGit,
   SiGithub,
+  SiPostman,
 } from "react-icons/si";
 
 import { VscVscode } from "react-icons/vsc";
@@ -56,6 +57,7 @@ const Skills = () => {
       skills: [
         { name: "Node.js", icon: FaNodeJs },
         { name: "Express.js", icon: SiExpress },
+        { name: "REST APIs", icon: FaServer },
       ],
     },
 
@@ -99,6 +101,7 @@ const Skills = () => {
         { name: "Git", icon: SiGit },
         { name: "GitHub", icon: FaGithub },
         { name: "VS Code", icon: VscVscode },
+        { name: "Postman", icon: SiPostman },
       ],
     },
   ];
