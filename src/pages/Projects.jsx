@@ -1,24 +1,37 @@
-import {
-  FaGithub,
-  FaExternalLinkAlt,
-  FaArrowRight,
-} from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt, FaArrowRight } from "react-icons/fa";
 import dailyToolkit from "../assets/projects/daily-toolkit.png";
-
+import imageStore from "../assets/projects/image-store.png";
 const Projects = () => {
   const projects = [
+    {
+      title: "Image Store",
+      description:
+        "A full-stack image sharing application where users can upload images with captions, view posts, and delete posts.",
+      image: imageStore,
+      status: "Completed",
+      technologies: [
+        "React",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "ImageKit",
+      ],
+      highlights: [
+        "Image upload with preview",
+        "REST API integration",
+        "MERN stack deployment",
+      ],
+      liveLink: "https://image-store-two.vercel.app/",
+      githubLink: "https://github.com/Arpit-Kumar-198/image-store",
+    },
     {
       title: "Daily Toolkit",
       description:
         "A collection of useful everyday web applications including a weather dashboard, expense tracker, calculator and notes app.",
       image: dailyToolkit,
       status: "Completed",
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "API",
-      ],
+      technologies: ["HTML", "CSS", "JavaScript", "API"],
       highlights: [
         "Weather dashboard",
         "Expense tracker",
@@ -35,7 +48,6 @@ const Projects = () => {
       className="scroll-mt-20 bg-[#101114] px-6 py-24 text-white lg:px-8"
     >
       <div className="mx-auto max-w-7xl">
-
         {/* Section Heading */}
         <div className="mb-16 text-center">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-[#F5B82E]">
@@ -56,16 +68,13 @@ const Projects = () => {
 
         {/* Projects Grid */}
         <div className="grid gap-7 md:grid-cols-2 lg:grid-cols-3">
-
           {projects.map((project, index) => (
             <div
               key={index}
               className="group flex flex-col overflow-hidden rounded-2xl border border-white/5 bg-[#18191d] transition-all duration-300 hover:-translate-y-2 hover:border-[#F5B82E]/40"
             >
-
               {/* Project Image */}
               <div className="relative h-52 overflow-hidden bg-[#101114]">
-
                 <img
                   src={project.image}
                   alt={project.title}
@@ -80,7 +89,6 @@ const Projects = () => {
 
               {/* Content */}
               <div className="flex flex-1 flex-col p-6">
-
                 <h3 className="text-2xl font-bold transition-colors duration-300 group-hover:text-[#F5B82E]">
                   {project.title}
                 </h3>
@@ -116,7 +124,6 @@ const Projects = () => {
 
                 {/* Buttons */}
                 <div className="mt-auto flex gap-3 pt-7">
-
                   <a
                     href={project.liveLink}
                     target="_blank"
@@ -136,13 +143,10 @@ const Projects = () => {
                     <FaGithub className="text-base" />
                     GitHub
                   </a>
-
                 </div>
-
               </div>
             </div>
           ))}
-
         </div>
 
         {/* Bottom CTA */}
@@ -151,7 +155,6 @@ const Projects = () => {
             More projects and experiments are available on my GitHub.
           </p>
         </div>
-
       </div>
     </section>
   );
