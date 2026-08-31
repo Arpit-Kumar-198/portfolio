@@ -1,8 +1,31 @@
 import { FaGithub, FaExternalLinkAlt, FaArrowRight } from "react-icons/fa";
 import dailyToolkit from "../assets/projects/daily-toolkit.png";
 import imageStore from "../assets/projects/image-store.png";
+import miniAI from "../assets/projects/mini-ai.png";
 const Projects = () => {
   const projects = [
+    {
+      title: "Next.js AI Practice",
+      description:
+        "A simple AI-powered application built with Next.js to practice Generative AI integration using the Google Gemini API.",
+      image: miniAI,
+      status: "Completed",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Google Gemini API",
+        "React Markdown",
+        "KaTeX",
+      ],
+      highlights: [
+        "Generative AI integration",
+        "Google Gemini API",
+        "Markdown and LaTeX rendering",
+      ],
+      liveLink: "https://mini-ai-omega.vercel.app/",
+      githubLink: "https://github.com/Arpit-Kumar-198/mini-ai",
+    },
     {
       title: "Image Store",
       description:
