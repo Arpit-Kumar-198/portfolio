@@ -2,8 +2,39 @@ import { FaGithub, FaExternalLinkAlt, FaArrowRight } from "react-icons/fa";
 import dailyToolkit from "../assets/projects/daily-toolkit.png";
 import imageStore from "../assets/projects/image-store.png";
 import miniAI from "../assets/projects/mini-ai.png";
+import vybe from "../assets/projects/vybe.png";
+
 const Projects = () => {
   const projects = [
+    {
+      title: "Vybe - Social Media Platform",
+      description:
+        "A full-stack social media platform built with the MERN stack, featuring user authentication, posts, likes, comments, follow/unfollow, cloud image uploads, and real-time messaging.",
+      image: vybe,
+      status: "In Progress",
+      technologies: [
+        "React",
+        "JavaScript",
+        "Tailwind CSS",
+        "Redux Toolkit",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Socket.IO",
+        "Cloudinary",
+        "JWT",
+      ],
+      highlights: [
+        "JWT-based user authentication",
+        "Create, like, comment, and delete posts",
+        "Follow and unfollow users",
+        "Cloudinary image uploads",
+        "Real-time messaging with Socket.IO",
+        "Responsive social media interface",
+      ],
+      liveLink: "#",
+      githubLink: "https://github.com/Arpit-Kumar-198/vybe",
+    },
     {
       title: "Next.js AI Practice",
       description:
