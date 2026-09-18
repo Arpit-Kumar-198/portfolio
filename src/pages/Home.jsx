@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedinIn, FaTwitter, FaDownload } from "react-icons/fa";
 import { FiArrowRight } from "react-icons/fi";
-import profileImage from "../assets/profile.jpeg";
+import profileImage from "../assets/arpit-profile-pic.jpeg";
 import resume from "../assets/arpit_kumar_resume.pdf";
 
 const Home = () => {

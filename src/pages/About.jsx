@@ -5,7 +5,7 @@ import {
   FaLightbulb,
   FaBrain,
 } from "react-icons/fa";
-import profileImage from "../assets/profile.jpeg";
+import profileImage from "../assets/arpit-profile-pic.jpeg";
 
 const About = () => {
   return (
